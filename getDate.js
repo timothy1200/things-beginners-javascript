@@ -1,6 +1,5 @@
-const updated = numbers.filter(element => element > 6);
-console.log("0 || 1 = "+(0 || 1));
-var c = new Counter(); c.add(); c.add(); c.add();
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const isEmptyArray = arr => !arr.length;
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const flattenedArray = arr => [].concat(...arr);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+console.log(typeof typeof 1);
