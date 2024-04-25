@@ -1,4 +1,2 @@
-const merge = Object.assign({}, obj1, obj2);
-const toggleBool = () => (bool = !bool);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const channelName = getChannelName(channel);
+const merge = [...new Set(a.concat(b))];
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
