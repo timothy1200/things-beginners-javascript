@@ -1,2 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const uniqueArray = arr => [...new Set(arr)];
+console.log(false == '0');
