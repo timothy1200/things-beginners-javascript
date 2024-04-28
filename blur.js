@@ -1,5 +1,4 @@
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
 const isTabInView = () => !document.hidden;
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const result = await makeHttpRequest(url);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
