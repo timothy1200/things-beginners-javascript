@@ -1,2 +1,2 @@
-const results = await Promise.all(resultingPromises);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
