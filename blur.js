@@ -1,2 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isArray = (arr) => Array.isArray(arr);
