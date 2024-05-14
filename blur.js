@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const isArray = (arr) => Array.isArray(arr);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log(1 +  +"2" + "2");
