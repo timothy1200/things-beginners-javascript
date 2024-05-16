@@ -1,2 +1,3 @@
-const results = await Promise.all(resultingPromises);
-const isArray = (arr) => Array.isArray(arr);
+console.log("0 || 1 = "+(0 || 1));
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
