@@ -1,3 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+console.log( "A" - "B" + 2);
+const results = await Promise.all(resultingPromises);
