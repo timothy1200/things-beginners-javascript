@@ -1,2 +1,3 @@
-console.log( "A" - "B" + 2);
-const results = await Promise.all(resultingPromises);
+const result = await makeHttpRequest(url);
+const removeDuplicates = (arr) => [...new Set(arr)];
+const maxNumber = arr => Math.max(...arr);
