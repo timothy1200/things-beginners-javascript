@@ -1,1 +1,2 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const stringReverse = str => str.split("").reverse().join("");
+const arrayContains = (arr, element) => arr.includes(element);
