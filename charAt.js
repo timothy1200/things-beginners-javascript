@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const arrayContains = (arr, element) => arr.includes(element);
+const appName = getAppName(channel);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
