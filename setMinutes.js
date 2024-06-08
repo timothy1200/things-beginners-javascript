@@ -1,3 +1,2 @@
-const result = await makeHttpRequest(url);
-const removeDuplicates = (arr) => [...new Set(arr)];
-const maxNumber = arr => Math.max(...arr);
+console.log(typeof typeof 1);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
