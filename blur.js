@@ -1,3 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const randomString = () => Math.random().toString(36).slice(2);
+console.log(1 +  "2" + "2");
