@@ -1,2 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-console.log(1 +  "2" + "2");
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const goToTop = () => window.scrollTo(0, 0);
