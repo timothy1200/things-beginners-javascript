@@ -1,3 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
