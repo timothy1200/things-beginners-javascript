@@ -1,2 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+console.log(1 +  "2" + "2");
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+console.log("0 && 1 = "+(0 && 1));
