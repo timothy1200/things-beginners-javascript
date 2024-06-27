@@ -1,1 +1,3 @@
-console.log(1 +  "2" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
