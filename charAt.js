@@ -1,3 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-var arr1 = "john".split('');
-console.log( "A" - "B" + 2);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const merge = [...new Set([...a, ...b])];
