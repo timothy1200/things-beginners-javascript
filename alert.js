@@ -1,1 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
