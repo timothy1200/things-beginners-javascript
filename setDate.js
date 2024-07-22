@@ -1,3 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const merge = (a, b) => a.concat(b);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
