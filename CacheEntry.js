@@ -1,2 +1,2 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const minNumber = arr => Math.min(...arr);
+const merge = [...new Set([...a, ...b])];
+const removeDuplicates = (arr) => [...new Set(arr)];
