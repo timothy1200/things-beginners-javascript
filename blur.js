@@ -1,2 +1,3 @@
-const reversedString = str => str.split('').reverse().join('');
-const allResults = await Promise.all(items.map(async (item) => {}));
+const isEmptyArray = arr => !arr.length;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isTabInView = () => !document.hidden;
