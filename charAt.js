@@ -1,3 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const allResults = await Promise.all(items.map(async (item) => {}));
+const uniqueArr = (arr) => [...new Set(arr)];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
